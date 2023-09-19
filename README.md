@@ -12,13 +12,23 @@ the box and start chatting.
 
 The simplest way to begin with AI in a Box is to [buy a pre-assembled device from Crowd Supply](https://usfl.ink/cs).
 This gives you a system that boots into caption mode right after you plug it 
-in. Initial orders are expected to be delivered in December 2023.
+in. Initial orders are expected to be delivered in January 2024.
 
 Before that date we'll be sharing the software needed to run the box on GitHub,
-but 
+but as a small startup we'll only be able to offer best-effort support. This
+document has details on the software and hardware we're using.
 
 ## Software
 
 AI in a Box integrates a lot of different open source software frameworks and
-ML models, and we have open sourced our own code that orchestrate and optimize
+ML models, and we are open sourced our own code that orchestrate and optimize
 all of these components.
+
+ - [Useful Transformers](https://github.com/usefulsensors/useful-transformers)
+
+## Hardware
+
+We use an RK3588S SoC from RockChip, which is found on some of these popular
+boards:
+
+ - 
